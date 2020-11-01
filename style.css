@@ -1,16 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-*{
+/* *{
     box-sizing: border-box;
     margin:0;
     padding: 0;
-}
-body{
+} */
+/* body, html{
     font-family: 'Roboto', sans-serif;
     background: #333333;
     color: #ffffff;
     line-height: 1.6;
-}
+    height: 100vh;
+    margin: 0;
+} */
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
 
 .slider{
     position: relative;
@@ -95,7 +102,7 @@ body{
 
 /* Background Images */
 .slide:first-child{
-    background: url('./images/image1.jpg') no-repeat center center/cover;
+    background: url('./images/image1.jpeg') no-repeat center center/cover;
 }
 
 .slide:nth-child(2){
@@ -104,4 +111,18 @@ body{
 
 .slide:nth-child(3){
     background: url('./images/image3.jpg') no-repeat center center/cover;
+}
+.slide:nth-child(4){
+    background: url('./images/image4.jpeg') no-repeat center center/cover;
+}
+.slide:nth-child(5){
+    background: url('./images/image5.jpeg') no-repeat center center/cover;
+}
+.slide:nth-child(6){
+    /* background: url('./images/image6.jpg') no-repeat center center/cover; */
+    background-image: url("./images/image6.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
