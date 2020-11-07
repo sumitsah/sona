@@ -113,7 +113,7 @@ body, html {
     background: url('./images/image3.jpg') no-repeat center center/cover;
 }
 .slide:nth-child(4){
-    background: url('./images/image4.jpeg') no-repeat center center/cover;
+    background: url('./images/image4.png') no-repeat center center/cover;
 }
 .slide:nth-child(5){
     background: url('./images/image5.jpeg') no-repeat center center/cover;
@@ -174,4 +174,10 @@ body, html {
 }
 .slide:nth-child(22){
     background: url('./images/image22.jpg') no-repeat center center/cover;
+}
+.slide:nth-child(23){
+    background: url('./images/image23.jpg') no-repeat center center/cover;
+}
+.slide:nth-child(24){
+    background: url('./images/image24.jpg') no-repeat center center/cover;
 }
