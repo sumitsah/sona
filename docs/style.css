@@ -181,3 +181,9 @@ body, html {
 .slide:nth-child(24){
     background: url('./images/image24.jpg') no-repeat center center/cover;
 }
+.slide:nth-child(25){
+    background: url('./images/image25.jpg') no-repeat center center/cover;
+}
+.slide:nth-child(26){
+    background: url('./images/image26.jpg') no-repeat center center/cover;
+}
